@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const baseUrl = import.meta.env.BASE_URL;
+const destination = `${baseUrl}es/`;
+---
+
+<BaseLayout
+  title="Portfolio tecnico"
+  description="Portfolio profesional bilingue de ciberseguridad, sistemas e infraestructura."
+  lang="es"
+>
+  <main class="redirect-page">
+    <meta http-equiv="refresh" content={`0;url=${destination}`} />
+    <div class="redirect-box">
+      <p>Redirigiendo a la version en español.</p>
+      <a href={destination}>Entrar al portfolio</a>
+    </div>
+  </main>
+</BaseLayout>

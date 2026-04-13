@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PortfolioPage from '../../components/PortfolioPage.astro';
+import { content } from '../../data/content.js';
+
+const lang = 'en';
+const page = content[lang];
+---
+
+<BaseLayout title={page.meta.title} description={page.meta.description} lang={lang} canonicalPath="en/">
+  <PortfolioPage page={page} lang={lang} />
+</BaseLayout>

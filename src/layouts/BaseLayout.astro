@@ -1,0 +1,38 @@
+---
+import '../styles/global.css';
+
+const {
+  title = 'Portfolio',
+  description = 'Professional technical portfolio.',
+  lang = 'es',
+  canonicalPath = '',
+} = Astro.props;
+
+const baseUrl = import.meta.env.BASE_URL;
+const site = Astro.site ? String(Astro.site) : undefined;
+const canonicalUrl = site ? new URL(`${baseUrl}${canonicalPath}`, site).toString() : undefined;
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#101312" />
+    {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+    <link rel="icon" href={`${baseUrl}favicon.ico`} sizes="any" />
+    <link rel="icon" href={`${baseUrl}favicon.png`} type="image/png" />
+    <link rel="apple-touch-icon" href={`${baseUrl}favicon.png`} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    {canonicalUrl && <meta property="og:url" content={canonicalUrl} />}
+    <meta name="twitter:card" content="summary_large_image" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
