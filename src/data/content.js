@@ -50,7 +50,7 @@ export const content = {
       title: 'Ingeniería de ciberseguridad para entornos técnicos exigentes.',
       value:
         'Ingeniero informático especializado en ciberseguridad y ciberinteligencia, con experiencia en hardening, automatización de infraestructura, diseño de redes, despliegue de servicios y análisis de inteligencia aplicada a la defensa.',
-      primaryCta: { label: 'Ver proyectos', href: '#proyectos' },
+      primaryCta: { label: 'Ver Experiencia', href: '#experiencia' },
       secondaryCta: { label: 'Contactar en LinkedIn', href: '#contacto' },
       image: {
         src: heroImage,
@@ -262,7 +262,7 @@ export const content = {
       title: 'Cybersecurity engineering for demanding technical environments.',
       value:
         'Computer engineer specialized in cybersecurity and cyber intelligence, with experience in system hardening, infrastructure automation, network design, service deployment and intelligence analysis applied to defense.',
-      primaryCta: { label: 'View projects', href: '#projects' },
+      primaryCta: { label: 'View Experience', href: '#experience' },
       secondaryCta: { label: 'Contact on LinkedIn', href: '#contact' },
       image: {
         src: heroImage,
