@@ -75,17 +75,6 @@ const ui =
         <a class="button button-primary" href={page.hero.primaryCta.href}>{page.hero.primaryCta.label}</a>
         <a class="button button-secondary" href={page.hero.secondaryCta.href}>{page.hero.secondaryCta.label}</a>
       </div>
-
-      <dl class="hero-metrics" aria-label={ui.technicalFocus}>
-        {
-          page.hero.metrics.map((metric) => (
-            <div>
-              <dt>{metric.value}</dt>
-              <dd>{metric.label}</dd>
-            </div>
-          ))
-        }
-      </dl>
     </div>
     {
       page.hero.image.credit && page.hero.image.creditUrl && (
@@ -244,7 +233,7 @@ const ui =
       <div class="section-heading">
         <p class="eyebrow">{page.contact.eyebrow}</p>
         <h2 id={`${page.contact.id}-title`}>{page.contact.title}</h2>
-        <p>{page.contact.text}</p>
+        {page.contact.text && <p>{page.contact.text}</p>}
       </div>
 
       <address class="contact-card">
@@ -285,7 +274,6 @@ const ui =
     document.documentElement.classList.add('reveal-ready');
 
     const revealSelectors = [
-      '.hero-metrics',
       '.section-heading',
       '.about-content > p',
       '.principle',

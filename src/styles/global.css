@@ -356,40 +356,6 @@ address {
   color: var(--text-muted);
 }
 
-.hero-metrics {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  width: min(100%, 780px);
-  margin: 0;
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  background: rgba(16, 19, 18, 0.72);
-  box-shadow: var(--shadow);
-  backdrop-filter: blur(12px);
-}
-
-.hero-metrics div {
-  padding: 1rem;
-  border-right: 1px solid var(--line);
-}
-
-.hero-metrics div:last-child {
-  border-right: 0;
-}
-
-.hero-metrics dt {
-  color: var(--text);
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
-  font-size: 1rem;
-  font-weight: 760;
-}
-
-.hero-metrics dd {
-  margin: 0.25rem 0 0;
-  color: var(--text-muted);
-  font-size: 0.9rem;
-}
-
 .image-credit {
   position: absolute;
   right: 1rem;
@@ -874,21 +840,11 @@ address {
     grid-template-columns: 1fr;
   }
 
-  .hero-metrics,
   .principles,
   .project-grid,
   .skill-grid,
   .check-list {
     grid-template-columns: 1fr;
-  }
-
-  .hero-metrics div {
-    border-right: 0;
-    border-bottom: 1px solid var(--line);
-  }
-
-  .hero-metrics div:last-child {
-    border-bottom: 0;
   }
 
   .section {

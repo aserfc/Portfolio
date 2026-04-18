@@ -58,19 +58,14 @@ export const content = {
         credit: '',
         creditUrl: '',
       },
-      metrics: [
-        { value: 'ISDEFE', label: 'ingeniería de ciberseguridad' },
-        { value: 'DevSecOps', label: 'infraestructura automatizada' },
-        { value: 'Locked Shields', label: 'participación en 2025' },
-      ],
     },
     about: {
       id: 'perfil',
       eyebrow: 'Sobre mí',
-      title: 'Perfil técnico orientado a defensa, automatización y operación segura.',
+      title: 'Perfil de ingeniería orientado a defensa, automatización y operación segura.',
       body: [
-        'Soy ingeniero informático en ISDEFE, especializado en ciberseguridad y ciberinteligencia. Mi trabajo se centra en fortalecer sistemas, automatizar infraestructura virtual, desplegar y configurar servicios, diseñar redes y explotar información de ciberinteligencia con criterio técnico.',
-        'Trabajo desde Madrid y mantengo una vinculación directa con Galicia, donde también puedo desarrollar actividad profesional. Me interesa construir soluciones seguras, reproducibles y bien documentadas, combinando visión defensiva, automatización y capacidad de análisis.',
+        'Actualmente me encuentro trabajando en ISDEFE como ingeniero informático, especializado en ciberseguridad y ciberinteligencia. Mi trabajo se centra en fortalecer sistemas, automatizar infraestructura virtual, desplegar y configurar servicios, diseñar redes y aplicar ciberinteligencia para apoyar decisiones en defensa.',
+        'Actualmente estoy en Madrid y también puedo colaborar de forma telemática en proyectos y entornos distribuidos. Me interesa construir soluciones seguras, reproducibles y bien documentadas, combinando visión defensiva, automatización y capacidad de análisis.',
       ],
       strengthsTitle: 'Fortalezas técnicas',
       strengths: [
@@ -84,7 +79,7 @@ export const content = {
       principles: [
         { label: 'Defensa', text: 'Seguridad aplicada a sistemas, redes e infraestructura.' },
         { label: 'Automatización', text: 'Procesos reproducibles para operar con más rigor.' },
-        { label: 'Inteligencia', text: 'Análisis técnico para apoyar decisiones de seguridad.' },
+        { label: 'Ciberinteligencia', text: 'Análisis aplicado para apoyar decisiones de seguridad y defensa.' },
       ],
     },
     experience: {
@@ -92,7 +87,7 @@ export const content = {
       eyebrow: 'Experiencia',
       title: 'Experiencia en ciberseguridad, infraestructura y automatización.',
       intro:
-        'Trayectoria técnica centrada en ciberseguridad, administración de firewalls, desarrollo web, DevSecOps, despliegue de servicios y ciberinteligencia.',
+        'Trayectoria centrada en ciberseguridad, administración de firewalls, DevSecOps, diseño de redes, despliegue de infraestructura, despliegue de servicios y ciberinteligencia.',
       items: [
         {
           role: 'Ingeniero de Ciberseguridad',
@@ -128,7 +123,7 @@ export const content = {
       eyebrow: 'Proyectos destacados',
       title: 'Proyectos y ejercicios aplicados a seguridad, automatización y operación.',
       intro:
-        'Una selección de trabajos y ejercicios relevantes en seguridad de red, operaciones de ciberseguridad y defensa en escenarios exigentes.',
+        'Trabajos y ejercicios con foco en seguridad de red, operaciones de ciberseguridad y defensa en escenarios de alta exigencia.',
       items: [
         {
           name: 'TFG - Automatización de la gestión de las políticas de seguridad de la red',
@@ -163,9 +158,9 @@ export const content = {
     skills: {
       id: 'stack',
       eyebrow: 'Stack y skills',
-      title: 'Herramientas y capacidades que uso para construir, defender y automatizar.',
+      title: 'Herramientas y capacidades para construir, defender y automatizar entornos seguros.',
       intro:
-        'Una visión práctica de las tecnologías con las que trabajo en sistemas, ciberseguridad, ciberinteligencia, automatización e infraestructura.',
+        'Selección de tecnologías y dominios de trabajo aplicados a sistemas, ciberseguridad, ciberinteligencia, automatización e infraestructura.',
       categories: [
         {
           name: 'Seguridad defensiva',
@@ -222,8 +217,7 @@ export const content = {
       id: 'contacto',
       eyebrow: 'Contacto',
       title: 'Conecta conmigo en LinkedIn.',
-      text:
-        'Para contacto profesional, oportunidades técnicas o conversación sobre ciberseguridad, ciberinteligencia e infraestructura, el canal principal es LinkedIn.',
+      text: '',
       emailLabel: '',
       socialLabel: 'Perfil profesional',
       links: [
@@ -276,19 +270,14 @@ export const content = {
         credit: '',
         creditUrl: '',
       },
-      metrics: [
-        { value: 'ISDEFE', label: 'cybersecurity engineering' },
-        { value: 'DevSecOps', label: 'automated infrastructure' },
-        { value: 'Locked Shields', label: '2025 participation' },
-      ],
     },
     about: {
       id: 'profile',
       eyebrow: 'About',
-      title: 'A technical profile focused on defense, automation and secure operations.',
+      title: 'An engineering profile focused on defense, automation and secure operations.',
       body: [
-        'I am a computer engineer at ISDEFE, specialized in cybersecurity and cyber intelligence. My work focuses on strengthening systems, automating virtual infrastructure, deploying and configuring services, designing networks and working with cyber intelligence from a technical perspective.',
-        'I work from Madrid and maintain a direct connection with Galicia, where I am also available for professional opportunities. I am interested in building secure, reproducible and well-documented solutions that combine defensive thinking, automation and analytical capability.',
+        'I am currently working at ISDEFE as a computer engineer specialized in cybersecurity and cyber intelligence. My work focuses on strengthening systems, automating virtual infrastructure, deploying and configuring services, designing networks and applying cyber intelligence to support defense decisions.',
+        'I am currently based in Madrid and can also collaborate remotely with distributed teams and projects. I am interested in building secure, reproducible and well-documented solutions that combine defensive thinking, automation and analytical capability.',
       ],
       strengthsTitle: 'Technical strengths',
       strengths: [
@@ -302,7 +291,7 @@ export const content = {
       principles: [
         { label: 'Defense', text: 'Security applied to systems, networks and infrastructure.' },
         { label: 'Automation', text: 'Reproducible processes for more rigorous operations.' },
-        { label: 'Intelligence', text: 'Technical analysis to support security decisions.' },
+        { label: 'Cyber intelligence', text: 'Applied analysis to support security and defense decisions.' },
       ],
     },
     experience: {
@@ -310,7 +299,7 @@ export const content = {
       eyebrow: 'Experience',
       title: 'Experience in cybersecurity, infrastructure and automation.',
       intro:
-        'Technical background focused on cybersecurity, firewall administration, web development, DevSecOps, service deployment and cyber intelligence.',
+        'Background focused on cybersecurity, firewall administration, DevSecOps, network design, infrastructure deployment, service deployment and cyber intelligence.',
       items: [
         {
           role: 'Cybersecurity Engineer',
@@ -346,7 +335,7 @@ export const content = {
       eyebrow: 'Featured projects',
       title: 'Projects and exercises applied to security, automation and operations.',
       intro:
-        'A selection of relevant work and exercises across network security, cybersecurity operations and defense in demanding scenarios.',
+        'Work and exercises focused on network security, cybersecurity operations and defense in highly demanding scenarios.',
       items: [
         {
           name: 'Final Degree Project - Automation of Network Security Policy Management',
@@ -381,9 +370,9 @@ export const content = {
     skills: {
       id: 'stack',
       eyebrow: 'Stack and skills',
-      title: 'Tools and capabilities I use to build, defend and automate.',
+      title: 'Tools and capabilities for building, defending and automating secure environments.',
       intro:
-        'A practical view of the technologies I work with across systems, cybersecurity, cyber intelligence, automation and infrastructure.',
+        'A focused selection of technologies and working domains applied to systems, cybersecurity, cyber intelligence, automation and infrastructure.',
       categories: [
         {
           name: 'Defensive security',
@@ -440,8 +429,7 @@ export const content = {
       id: 'contact',
       eyebrow: 'Contact',
       title: 'Connect with me on LinkedIn.',
-      text:
-        'For professional contact, technical opportunities or conversations about cybersecurity, cyber intelligence and infrastructure, LinkedIn is the main channel.',
+      text: '',
       emailLabel: '',
       socialLabel: 'Professional profile',
       links: [
